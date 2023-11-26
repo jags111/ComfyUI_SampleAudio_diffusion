@@ -1,6 +1,6 @@
 # ComfyUI_SampleAudio_diffusion
-# Sample Diffusion ComfyUI extension (modified)
-
+# Sample Diffusion ComfyUI extension (modified)<br>
+🌈 🍬 Note we have made changes to the original repo here and adding new nodes to experiment and certain features may be experimental and may need contant updates. If you face any issue, ensure you have updated ComfyUi to the latest version and updates all requirements and share your workflow in the Issues. we are thankful to Harmonai-org and origianl repo for same🌈 <br>
 
 ## Features
 Allows the use of trained [dance diffusion/sample generator](https://github.com/Harmonai-org/sample-generator) models in ComfyUI.<br>
