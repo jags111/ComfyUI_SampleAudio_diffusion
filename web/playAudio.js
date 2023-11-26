@@ -1,5 +1,15 @@
 import { app } from "/scripts/app.js";
+import { api } from '../../../scripts/api.js'
+import { ComfyWidgets } from '../../../scripts/widgets.js'
+import { $el } from '../../../scripts/ui.js'
 
+let api_host = '127.0.0.1:8188'
+let api_base = ''
+let url = `http://${api_host}${api_base}`
+
+/* 
+A method that returns the required style for the html 
+*/
 function addPlaybackWidget(node, name, url) {
 	let isTick = true;
 	const audio = new Audio(url);
@@ -158,3 +168,4 @@ app.registerExtension({
 		}
 	},
 });
+app.registerExtension(node)
