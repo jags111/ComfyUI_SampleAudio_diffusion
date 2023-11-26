@@ -1,5 +1,5 @@
 # ComfyUI_SampleAudio_diffusion
-# Sample Diffusion ComfyUI extension
+# Sample Diffusion ComfyUI extension (modified)
 
 
 ## Features
